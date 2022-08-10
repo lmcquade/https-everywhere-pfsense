@@ -22,7 +22,7 @@ chmod a+x install.sh update.sh
 
 ## Add Squid Custom Options (before Auth)
 ```sh
-redirect_program /usr/local/bin/python3.8 /usr/local/libexec/squid/https-everywhere-pfsense/squid.py
+redirect_program /usr/local/bin/python3.9 /usr/local/libexec/squid/https-everywhere-pfsense/squid.py
 url_rewrite_children 16
 ```
 
@@ -31,4 +31,4 @@ url_rewrite_children 16
 /usr/local/libexec/squid/https-everywhere-pfsense/update.sh
 ```
 
-## Tested with pfSense 21.05
+## Tested with pfSense 22.05

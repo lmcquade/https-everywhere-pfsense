@@ -10,5 +10,5 @@ if [ -r "https-everywhere/.git" ]; then
     cd https-everywhere
     git checkout .
     git pull --rebase
-    python3.7 utils/merge-rulesets.py
+    python3.9 utils/merge-rulesets.py
 fi
